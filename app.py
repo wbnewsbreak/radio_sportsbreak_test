@@ -35,9 +35,7 @@ def podcast_server():
   <itunes:duration>{audio_len}</itunes:duration>
   <itunes:explicit>no</itunes:explicit>
 </item>
-
-
-
  </channel>
 </rss>
-
+'''
+  return output
