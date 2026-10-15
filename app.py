@@ -6,8 +6,7 @@ def podcast_server():
   user = request.args.get("user")
   audio_file = "https://archive.org/download/mlbnfl/mlbnfl.mp3" if user == "Bob" else "https://archive.org/download/mlbnfl/nbanfl.mp3"
   audio_len = 74 if user == "Bob" else 72
-  output = f'''
-  <?xml version="1.0" encoding="UTF-8"?>
+  output = f'''<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <atom:link href="https://apps.apple.com/us/app/sportsbreak-live-scores-news/id6762649287" rel="self" type="application/rss+xml" />
