@@ -28,7 +28,7 @@ def podcast_server():
   <title> {user}'s Daily Sports Briefing for October 14th, 2026</title>
   <description>{user}'s Daily Sports Briefing for October 14th, 2026</description>
   <pubDate>Thu, 15 Oct 2026 00:26:07 +0000</pubDate>
-  <guid>${values[i][2]}</guid>
+  <guid>{audio_file}</guid>
   <enclosure url="{audio_file}"
               length="1100000"
               type="audio/mpeg"/>
