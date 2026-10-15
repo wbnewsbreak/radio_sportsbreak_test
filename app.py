@@ -21,7 +21,7 @@ def podcast_server():
     </description>
     <itunes:explicit>no</itunes:explicit>
     <!-- consider adding pictures in the future -->
-    <!-- itunes:image href="${picUrl}" / -->
+    <!-- itunes:image href="url of picture here in the future" / -->
     <language>en</language>
 
 <item>
